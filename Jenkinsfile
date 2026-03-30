@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/Hossamsaber1/DevOps-CICD.git'
+                git branch: 'main', url: 'https://github.com/Hossamsaber1/DevOps-CICD.git'
             }
         }
 
